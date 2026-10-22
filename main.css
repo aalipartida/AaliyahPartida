@@ -1,0 +1,59 @@
+.title {
+
+                    background-color: #c3bdd8;
+                    border-radius: 15px;
+                    border: 5px #574964;
+                    box-shadow: 3px 1px 10px #574964;
+                    text-align: center;
+                    font-family: "BrugeVibes-Regular";
+                    font-size: 40px;
+                    text-shadow: 2px 1px 5px #574964;
+                    padding-top: 10px;
+}    
+    button {
+                        background-color: #ebe6ef;
+                        text-align: center;
+                        font-family: "BrugeVibes-Regular";
+                        font-size: 20px;
+                        padding: 5px 10px;
+                        border: none;
+                        margin: 30px;
+                        margin-top: 1px;
+                
+}
+body {
+                    background-color: #6b6fa5;
+                }
+                @font-face {
+                        font-family: "BrugeVibes-Regular";
+                        src: url("BrugeVibes-Regular.ttf") format("truetype");
+                        font-family: "TT Drugs Trial Bold Italic";
+                        src: url("TT Drugs Trial Bold Italic.otf") format("truetype");
+            
+                    }
+
+
+.img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: start;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.img img {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+a {
+    color: #000000;
+    font-family: "TT Drugs Trial Bold Italic";
+    background-color: #c3bdd8;
+    font-size: 25px;
+    margin: 10px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-right: 300px;
+}
